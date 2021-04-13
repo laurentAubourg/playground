@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='main Page'/>
+        <page name='Protocoles'/>
+        <page name='init'/>
+        <page name='proprietes calculees'/>
+        <page name='observateurs'/>
+        <page name='fonctions'/>
+        <page name='retours multiples'/>
+        <page name='variatics'/>
+        <page name='inOut'/>
+        <page name='doCatchTryThrow'/>
+        <page name='typeReturnType'/>
+        <page name='enum'/>
+        <page name='enum-recursion'/>
+        <page name='notificationCenter'/>
+        <page name='closures'/>
+        <page name='switchCase'/>
+        <page name='calculatedTupple'/>
+        <page name='Les boucles'/>
+        <page name='Les optionals'/>
+        <page name='range'/>
+    </pages>
+</playground>
