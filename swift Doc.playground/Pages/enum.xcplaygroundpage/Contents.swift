@@ -25,7 +25,7 @@ enum planete : Int {
     Uranus,
     Pluton
 }
-let positionDeLaPlanete = 3
+let positionDeLaPlanete = 5
 if let unePlanete = planete (rawValue: positionDeLaPlanete  ){
     switch unePlanete {
     case .Terre:
@@ -36,4 +36,5 @@ if let unePlanete = planete (rawValue: positionDeLaPlanete  ){
 }else{
     print ("y a que 8 planetes chez nous ", separator: "", terminator: " !" )
 }
+planete.self
 //: [Accueil](main%20Page)
