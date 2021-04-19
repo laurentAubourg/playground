@@ -6,14 +6,14 @@ import Foundation
 class Player{
     var name : String = "toto lariflette"{
         willSet{
-            "\(NSDate().timeIntervalSince1970) sur le point de changerle nom en \(newValue) )"
+            "\(NSDate().timeIntervalSince1970) --- sur le point de changerle nom en \(newValue) )"
         }
         didSet{
-            "\(NSDate().timeIntervalSince1970) a changé le nom en \(oldValue) )"
+            "\(NSDate().timeIntervalSince1970) --- a changé le nom en \(oldValue) )"
         }
     }
 }
 var newPlayer = Player()
-newPlayer.name = "bidule"
+newPlayer.name = "machin"
 
 //: [Accueil](main%20Page)
